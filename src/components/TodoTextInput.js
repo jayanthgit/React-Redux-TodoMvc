@@ -5,7 +5,7 @@ export default class TodoTextInput extends Component {
         return (
             <input 
                 type="text"
-                placeholder="Enter a task" />
+                placeholder={this.props.placeholder} />
         );
     }
 }
